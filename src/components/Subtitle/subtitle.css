@@ -1,0 +1,13 @@
+.subtitle {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.subtitle > * {
+  width: 1400px;
+  margin-inline: 20px;
+  color: var(--black);
+}
