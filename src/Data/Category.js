@@ -1,5 +1,4 @@
 import {
-  GuarnicionesFoot,
   bandejaFoot,
   entryFoot,
   fishFoot,
