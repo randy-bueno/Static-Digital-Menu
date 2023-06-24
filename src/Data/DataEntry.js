@@ -1,4 +1,11 @@
 import {
+  batidosDrinks,
+  bebidasDrinks,
+  bebidasTwo,
+  cafe,
+  zumosDrinks,
+} from "../helper/bebidas";
+import {
   bandejaFoot,
   entryFoot,
   fishFoot,
@@ -11,7 +18,7 @@ import {
   saledFoot,
   sandwichFoot,
   wrapFoot,
-} from "../helper/const";
+} from "../helper/frutas";
 import { category } from "./Category";
 
 export const footDataEntry = [
@@ -347,7 +354,7 @@ export const footDataEntry = [
 
   {
     id: "32",
-    name: "Litas de pollo picantes",
+    name: "Alitas de pollo picantes",
     price: 200,
     description: "Sazones naturales y salsa barbacoa.",
     category: category[5].name,
@@ -419,7 +426,7 @@ export const footDataEntry = [
   {
     id: "39",
     name: "Bandeja de Carne (Grande)",
-    price: 1.11,
+    price: "1,100",
     description:
       "Pechuga de pollo, alita de pollo, carne salada, longaniza, papas fritas, plátanos fritos y pico de gallo.",
     category: category[6].name,
@@ -514,7 +521,7 @@ export const footDataEntry = [
     url: wrapFoot.jamonQueso,
   },
 
-  ////
+  //Guarniciones//
 
   {
     id: "48",
@@ -718,6 +725,261 @@ export const footDataEntry = [
     status: "Disponible",
     url: postreFoot.yogur,
   },
-  
-  
+
+  //Bebidas//
+
+  {
+    id: "68",
+    name: "Dasaní",
+    price: 25,
+    description: "",
+    category: category[12].name,
+    status: "Disponible",
+    url: bebidasDrinks.hasani,
+  },
+
+  {
+    id: "69",
+    name: "Coca cola sin azúcar",
+    price: 25,
+    description: "",
+    category: category[12].name,
+    status: "Disponible",
+    url: bebidasDrinks.cocaCola,
+  },
+
+  {
+    id: "70",
+    name: "Alovera",
+    price: 75,
+    description: "",
+    category: category[12].name,
+    status: "Disponible",
+    url: bebidasDrinks.alovera,
+  },
+
+  {
+    id: "71",
+    name: "Refrescos",
+    price: 25,
+    description: "",
+    category: category[12].name,
+    status: "Disponible",
+    url: bebidasDrinks.refrescos,
+  },
+
+  //Zumos//
+
+  {
+    id: "72",
+    name: "Limón",
+    price: 150,
+    description: "",
+    category: category[13].name,
+    status: "Disponible",
+    url: zumosDrinks.zumos,
+  },
+
+  {
+    id: "73",
+    name: "Chinola",
+    price: 100,
+    description: "",
+    category: category[13].name,
+    status: "Disponible",
+    url: zumosDrinks.zumos,
+  },
+
+  {
+    id: "74",
+    name: "Naranja",
+    price: 150,
+    description: "",
+    category: category[13].name,
+    status: "Disponible",
+    url: zumosDrinks.zumos,
+  },
+
+  {
+    id: "75",
+    name: "Piña",
+    price: 150,
+    description: "",
+    category: category[13].name,
+    status: "Disponible",
+    url: zumosDrinks.zumos,
+  },
+
+  {
+    id: "76",
+    name: "Lechosa",
+    price: 125,
+    description: "",
+    category: category[13].name,
+    status: "Disponible",
+    url: zumosDrinks.zumos,
+  },
+  {
+    id: "77",
+    name: "Melón",
+    price: 125,
+    description: "",
+    category: category[13].name,
+    status: "Disponible",
+    url: zumosDrinks.zumos,
+  },
+
+  {
+    id: "78",
+    name: "Sandía",
+    price: 125,
+    description: "",
+    category: category[13].name,
+    status: "Disponible",
+    url: zumosDrinks.zumos,
+  },
+  {
+    id: "79",
+    name: "Kiwi",
+    price: 175,
+    description: "",
+    category: category[13].name,
+    status: "Disponible",
+    url: zumosDrinks.zumos,
+  },
+
+  //Batida//
+
+  {
+    id: "80",
+    name: "Fresa",
+    price: 200,
+    description: "",
+    category: category[14].name,
+    status: "Disponible",
+    url: batidosDrinks.baditosFresa,
+  },
+
+  {
+    id: "81",
+    name: "Guineo",
+    price: 125,
+    description: "",
+    category: category[14].name,
+    status: "Disponible",
+    url: batidosDrinks.baditosGuineo,
+  },
+
+  {
+    id: "82",
+    name: "Lechosa",
+    price: 125,
+    description: "",
+    category: category[14].name,
+    status: "Disponible",
+    url: batidosDrinks.baditosLechosa,
+  },
+
+  {
+    id: "83",
+    name: "Zapote",
+    price: 200,
+    description: "",
+    category: category[14].name,
+    status: "Disponible",
+    url: batidosDrinks.baditosZapote,
+  },
+
+  {
+    id: "84",
+    name: "Ciruela",
+    price: 200,
+    description: "",
+    category: category[14].name,
+    status: "Disponible",
+    url: batidosDrinks.baditosCirela,
+  },
+
+  {
+    id: "85",
+    name: "Granola",
+    price: 175,
+    description: "",
+    category: category[14].name,
+    status: "Disponible",
+    url: batidosDrinks.baditosGranola,
+  },
+
+  {
+    id: "86",
+    name: "Pitajaya",
+    price: 200,
+    description: "",
+    category: category[14].name,
+    status: "Disponible",
+    url: batidosDrinks.baditosPitahaya,
+  },
+
+  //Cafe //
+
+  {
+    id: "87",
+    name: "Frapuchino",
+    price: 175,
+    description: "",
+    category: category[15].name,
+    status: "Disponible",
+    url: cafe.cafeFrapuchino,
+  },
+  {
+    id: "88",
+    name: "Capuchino",
+    price: 220,
+    description: "",
+    category: category[15].name,
+    status: "Disponible",
+    url: cafe.cafeCapuchino,
+  },
+
+  {
+    id: "89",
+    name: "Café exprés",
+    price: 220,
+    description: "",
+    category: category[15].name,
+    status: "Disponible",
+    url: cafe.cafeExpres,
+  },
+
+  //BebidasTwo //
+
+  {
+    id: "90",
+    name: "Mojito",
+    price: 175,
+    description: "",
+    category: category[12].name,
+    status: "Disponible",
+    url: bebidasTwo.mojitos,
+  },
+
+  {
+    id: "91",
+    name: "Sangría",
+    price: 175,
+    description: "",
+    category: category[12].name,
+    status: "Disponible",
+    url: bebidasTwo.sangria,
+  },
+
+  {
+    id: "92",
+    name: "Piña colada",
+    price: 200,
+    description: "",
+    category: category[12].name,
+    status: "Disponible",
+    url: bebidasTwo.pinaColada,
+  },
 ];

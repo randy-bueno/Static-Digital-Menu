@@ -5,13 +5,14 @@ import { Header } from "../../components/Header";
 import { footDataEntry } from "../../Data/DataEntry";
 
 export const CategoryDetailts = () => {
+
   const { category } = useParams<{ category: string }>();
   const filterCategory = footDataEntry.filter((item) => item.category === category);
   return (
     <>
     <Header showTitle />
       <Subtitle title={category} />
-      <main className="content-cards bottom ">
+      <main className="content-cards bottom">
         <section className="container">
           {filterCategory.map((d) => (
             <Card
