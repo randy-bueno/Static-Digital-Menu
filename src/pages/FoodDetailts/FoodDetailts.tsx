@@ -2,6 +2,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { footDataEntry } from "../../Data/DataEntry";
 import "./detailt.css";
 import IonIcon from "@reacticons/ionicons";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export const FoodDetailts = () => {
   const { id } = useParams<{ id: string }>();
@@ -15,7 +16,15 @@ export const FoodDetailts = () => {
             <button onClick={() => navigate(-1)} className="btn-back-detail">
               <IonIcon name="arrow-back-circle-outline" />
             </button>
-            <img src={f.url} alt={f.name} className="img-view " />
+            <LazyLoadImage
+              width="100%"
+              height="100%"
+              src={f.url}
+              placeholderSrc={f.url}
+              effect="blur"
+              className="img-view"
+              alt={f.name}
+            />
             <div className="content-descri">
               <div className="col">
                 <strong className="sub-title">{f.name}</strong>

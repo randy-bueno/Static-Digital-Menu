@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import "./card.css";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 type CardProps = {
   route?: string;
@@ -13,7 +15,15 @@ export const Card = ({ route, url, title, price, status }: CardProps) => {
     <>
       <div className="card">
         <div className="card-header">
-          <img src={url} className="img-product" alt="#" />
+          <LazyLoadImage
+            width="100%"
+            height="100%"
+            src={url}
+            placeholderSrc={url}
+            effect="blur"
+            className="img-product"
+            alt="#"
+          />
         </div>
         <div className="card-body">
           <div className="card-title">
