@@ -1,4 +1,10 @@
 import {
+  batidosDrinks,
+  bebidasDrinks,
+  cafe,
+  zumosDrinks,
+} from "../helper/bebidas";
+import {
   bandejaFoot,
   entryFoot,
   fishFoot,
@@ -11,7 +17,7 @@ import {
   saledFoot,
   sandwichFoot,
   wrapFoot,
-} from "../helper/const";
+} from "../helper/frutas";
 
 export const category = [
   {
@@ -81,5 +87,29 @@ export const category = [
     id: "11",
     name: "Postres",
     portada: postreFoot.dulceCoco,
+  },
+
+  {
+    id: "12",
+    name: "Bebidas",
+    portada: bebidasDrinks.refrescos,
+  },
+
+  {
+    id: "13",
+    name: "Zumos",
+    portada: zumosDrinks.zumos,
+  },
+
+  {
+    id: "14",
+    name: "Batidos",
+    portada: batidosDrinks.baditosGuineo,
+  },
+
+  {
+    id: "15",
+    name: "Café",
+    portada: cafe.cafeCapuchino,
   },
 ];
