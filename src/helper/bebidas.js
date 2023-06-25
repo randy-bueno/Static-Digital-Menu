@@ -47,3 +47,11 @@ export const bebidasTwo = {
   pinaColada:
     "https://champions-bebidas.netlify.app/img/bebeidad/pina-colada.png",
 };
+
+export const morirJugo = {
+  chinola : "https://champions-bebidas.netlify.app/img/morir-sonando/chinola.jpg",
+  naranja : "https://champions-bebidas.netlify.app/img/morir-sonando/naranja.png",
+  limon :
+    "https://champions-bebidas.netlify.app/img/morir-sonando/limon.png",
+};
+
