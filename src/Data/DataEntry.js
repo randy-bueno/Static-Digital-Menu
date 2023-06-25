@@ -176,7 +176,7 @@ export const footDataEntry = [
   {
     id: "15",
     name: "Mofongo de camarones",
-    price: 375,
+    price: 425,
     description:
       "Camarones, plátano, salsa bechamel, salsa de queso cheddar y sazones naturales.",
     category: category[3].name,
@@ -772,87 +772,87 @@ export const footDataEntry = [
 
   {
     id: "72",
-    name: "Limón",
+    name: "Jugo de Limón",
     price: 150,
     description: "",
     category: category[13].name,
     status: "Disponible",
-    url: zumosDrinks.zumos,
+    url: zumosDrinks.zumosLimon,
   },
 
   {
     id: "73",
-    name: "Chinola",
+    name: "Jugo de Chinola",
     price: 100,
     description: "",
     category: category[13].name,
     status: "Disponible",
-    url: zumosDrinks.zumos,
+    url: zumosDrinks.zumosChinola,
   },
 
   {
     id: "74",
-    name: "Naranja",
+    name: "Jugo de Naranja",
     price: 150,
     description: "",
     category: category[13].name,
     status: "Disponible",
-    url: zumosDrinks.zumos,
+    url: zumosDrinks.zumosNaranja,
   },
 
   {
     id: "75",
-    name: "Piña",
+    name: "Jugo de Piña",
     price: 150,
     description: "",
     category: category[13].name,
     status: "Disponible",
-    url: zumosDrinks.zumos,
+    url: zumosDrinks.zumosPina,
   },
 
   {
     id: "76",
-    name: "Lechosa",
+    name: "Jugo de Lechosa",
     price: 125,
     description: "",
     category: category[13].name,
     status: "Disponible",
-    url: zumosDrinks.zumos,
+    url: zumosDrinks.zumosLechosa,
   },
   {
     id: "77",
-    name: "Melón",
+    name: "Jugo de Melón",
     price: 125,
     description: "",
     category: category[13].name,
     status: "Disponible",
-    url: zumosDrinks.zumos,
+    url: zumosDrinks.zumosMelon,
   },
 
   {
     id: "78",
-    name: "Sandía",
+    name: "Jugo de Sandía",
     price: 125,
     description: "",
     category: category[13].name,
     status: "Disponible",
-    url: zumosDrinks.zumos,
+    url: zumosDrinks.zumosSandia,
   },
   {
     id: "79",
-    name: "Kiwi",
+    name: "Jugo de Kiwi",
     price: 175,
     description: "",
     category: category[13].name,
     status: "Disponible",
-    url: zumosDrinks.zumos,
+    url: zumosDrinks.zumosKiwi,
   },
 
   //Batida//
 
   {
     id: "80",
-    name: "Fresa",
+    name: "Batido de Fresa",
     price: 200,
     description: "",
     category: category[14].name,
@@ -862,7 +862,7 @@ export const footDataEntry = [
 
   {
     id: "81",
-    name: "Guineo",
+    name: "Batido de Guineo",
     price: 125,
     description: "",
     category: category[14].name,
@@ -872,7 +872,7 @@ export const footDataEntry = [
 
   {
     id: "82",
-    name: "Lechosa",
+    name: "Batido de Lechosa",
     price: 125,
     description: "",
     category: category[14].name,
@@ -882,7 +882,7 @@ export const footDataEntry = [
 
   {
     id: "83",
-    name: "Zapote",
+    name: "Batido de Zapote",
     price: 200,
     description: "",
     category: category[14].name,
@@ -892,7 +892,7 @@ export const footDataEntry = [
 
   {
     id: "84",
-    name: "Ciruela",
+    name: "Batido de Ciruela",
     price: 200,
     description: "",
     category: category[14].name,
@@ -902,7 +902,7 @@ export const footDataEntry = [
 
   {
     id: "85",
-    name: "Granola",
+    name: "Batido de Granola",
     price: 175,
     description: "",
     category: category[14].name,
@@ -912,7 +912,7 @@ export const footDataEntry = [
 
   {
     id: "86",
-    name: "Pitajaya",
+    name: "Batido de Pitajaya",
     price: 200,
     description: "",
     category: category[14].name,

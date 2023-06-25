@@ -7,7 +7,14 @@ export const bebidasDrinks = {
 };
 
 export const zumosDrinks = {
-  zumos: "https://champions-bebidas.netlify.app/img/zumos/zumos.jpg",
+  zumosLimon: "https://champions-bebidas.netlify.app/img/zumos/zumo-limon.jpg",
+  zumosChinola: "https://champions-bebidas.netlify.app/img/zumos/zumo-chinola.jpg",
+  zumosNaranja: "https://champions-bebidas.netlify.app/img/zumos/zumo-naranja.jpg",
+  zumosPina: "https://champions-bebidas.netlify.app/img/zumos/zumo-pina.jpg",
+  zumosLechosa: "https://champions-bebidas.netlify.app/img/zumos/zumo-lechosa.jpg",
+  zumosMelon: "https://champions-bebidas.netlify.app/img/zumos/zumo-melon.png",
+  zumosSandia: "https://champions-bebidas.netlify.app/img/zumos/zumo-sandia.jpg",
+  zumosKiwi: "https://champions-bebidas.netlify.app/img/zumos/zumo-kiwi.jpg",
 };
 
 export const batidosDrinks = {
