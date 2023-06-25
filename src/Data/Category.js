@@ -98,7 +98,7 @@ export const category = [
   {
     id: "13",
     name: "Zumos",
-    portada: zumosDrinks.zumos,
+    portada: zumosDrinks.zumosChinola,
   },
 
   {
