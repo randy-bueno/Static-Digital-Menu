@@ -3,6 +3,7 @@ import {
   bebidasDrinks,
   bebidasTwo,
   cafe,
+  morirJugo,
   zumosDrinks,
 } from "../helper/bebidas";
 import {
@@ -154,7 +155,7 @@ export const footDataEntry = [
   {
     id: "13",
     name: "Mofongo de pollo",
-    price: 350,
+    price: 400,
     description:
       "Pechuga de pollo, plátano, salsa bechamel, salsa de queso cheddar y sazones naturales.",
     category: category[3].name,
@@ -165,7 +166,7 @@ export const footDataEntry = [
   {
     id: "14",
     name: "Mofongo de chicharrón",
-    price: 350,
+    price: 400,
     description:
       "Chicharrón, plátano, salsa bechamel, salsa de queso cheddar y sazones naturales.",
     category: category[3].name,
@@ -982,4 +983,41 @@ export const footDataEntry = [
     status: "Disponible",
     url: bebidasTwo.pinaColada,
   },
+
+
+  ////
+  {
+    id: "93",
+    name: "Chinola",
+    price: 200,
+    description: "",
+    category: category[16].name,
+    status: "Disponible",
+    url: morirJugo.chinola,
+  },
+
+  {
+    id: "94",
+    name: "Naranja",
+    price: 150,
+    description: "",
+    category: category[16].name,
+    status: "Disponible",
+    url: morirJugo.naranja,
+  },
+
+  {
+    id: "95",
+    name: "Limón",
+    price: 125,
+    description: "",
+    category: category[16].name,
+    status: "Disponible",
+    url: morirJugo.limon,
+  },
+
+
+
+
+
 ];

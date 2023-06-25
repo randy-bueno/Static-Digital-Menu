@@ -2,6 +2,7 @@ import {
   batidosDrinks,
   bebidasDrinks,
   cafe,
+  morirJugo,
   zumosDrinks,
 } from "../helper/bebidas";
 import {
@@ -111,5 +112,11 @@ export const category = [
     id: "15",
     name: "Café",
     portada: cafe.cafeCapuchino,
+  },
+
+  {
+    id: "16",
+    name: "Morir soñando",
+    portada: morirJugo.naranja,
   },
 ];
