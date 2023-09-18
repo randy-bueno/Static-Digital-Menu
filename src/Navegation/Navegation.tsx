@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { Route, Routes, Navigate } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { Route, Routes } from "react-router-dom";
 import { Menu } from "../components/Menu";
 import { Category } from "../pages/Category";
 import { Search } from "../pages/Search";
