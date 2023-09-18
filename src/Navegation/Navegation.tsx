@@ -5,21 +5,9 @@ import { Search } from "../pages/Search";
 import { CategoryDetailts } from "../pages/CategoryDetailts";
 import { FoodDetailts } from "../pages/FoodDetailts";
 import { Contacts } from "../pages/Contacts";
-import { Loader } from "../components/Loader";
-import { useEffect, useState } from "react";
-
 export const Navegation = () => {
-  const [showLoader, setShowLoader] = useState(true);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setShowLoader(false);
-    }, 2000);
-  }, []);
-
   return (
     <>
-      {showLoader && <Loader />}
       <Routes>
         <Route path="/" element={<Category />} />
         <Route path="/buscar" element={<Search />} />
