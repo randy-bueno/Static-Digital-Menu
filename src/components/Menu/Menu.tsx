@@ -19,13 +19,22 @@ export const Menu = () => {
               </Link>
             </li>
 
-            <li>
+            <li className="menu-buscar">
               <Link
                 to="/buscar"
                 className={location.pathname === "/buscar" ? "active" : ""}
               >
                 <IonIcon name="search" className="icon-size" />
                 <span className="menu-text">Buscar</span>
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/contactos"
+                className={location.pathname === "/contactos" ? "active" : ""}
+              >
+                <IonIcon name="chatbubbles" className="icon-size" />
+                <span className="menu-text">Contactos</span>
               </Link>
             </li>
           </ul>

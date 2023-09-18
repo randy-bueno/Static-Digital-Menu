@@ -38,3 +38,16 @@
 .active > *{
   color: var(--primary);
 }
+
+.menu-buscar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 12px;
+  width: 65px;
+  height: 65px;
+  background-color: var(--black);
+  border: solid 1px var(--primary);
+  border-radius: 100%;
+}
