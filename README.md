@@ -1,1 +1,1 @@
-Menú digital estático.
+Menú digital estático, diseñado para dispositivos móviles.
